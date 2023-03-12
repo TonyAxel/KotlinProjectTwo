@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 else if (discriminant(a, b, c) == 0.0){
                     val x = (-b - sqrt(discriminant(a, b, c))) / (2 * a)
-                    alert1.setMessage("Уравнение имеет 1 корень $x ").create();
+                    alert1.setMessage("Уравнение имеет 2 одинаковых корня x1 = x2 = $x ").create();
                     alert1.show();
                 }
                 else if (a == b){
